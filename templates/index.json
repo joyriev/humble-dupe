@@ -420,35 +420,40 @@
           "type": "list_item",
           "settings": {
             "title": "No Celebrity Tax",
-            "description": "You're not paying for a famous face."
+            "description": "You're not paying for a famous face.",
+            "image": "shopify://shop_images/crown-icon.svg"
           }
         },
         "list_item_Y8PNCx": {
           "type": "list_item",
           "settings": {
             "title": "Cruelty-Free (Obviously)",
-            "description": "We test on willing humans, not bunnies."
+            "description": "We test on willing humans, not bunnies.",
+            "image": "shopify://shop_images/leaf-icon.svg"
           }
         },
         "list_item_yxDVcQ": {
           "type": "list_item",
           "settings": {
             "title": "12+ Hour Longevity",
-            "description": "Your scent should last as long as your day."
+            "description": "Your scent should last as long as your day.",
+            "image": "shopify://shop_images/clock-icon.svg"
           }
         },
         "list_item_htAiEB": {
           "type": "list_item",
           "settings": {
             "title": " Try Before You Commit",
-            "description": "Travel sizes exist for a reason."
+            "description": "Travel sizes exist for a reason.",
+            "image": "shopify://shop_images/aerosol-spray-bottle-icon.svg"
           }
         },
         "list_item_bhN48G": {
           "type": "list_item",
           "settings": {
             "title": "60-Day Money Back",
-            "description": "If you don't love it, we'll refund you."
+            "description": "If you don't love it, we'll refund you.",
+            "image": "shopify://shop_images/undo-arrow-icon.svg"
           }
         }
       },
@@ -464,6 +469,7 @@
         "background_color": "#f1f6ff",
         "makes_diferent_title": "Why We're Better",
         "makes_diferent_description": "(And We're Not Shy About It)",
+        "makes-different-image": "shopify://shop_images/bottles.png",
         "makes-different-btn-text": "BUY 2 GET 1 FREE - ENDS SOON!",
         "makes-different-btn-link": "",
         "padding_top": 72,
