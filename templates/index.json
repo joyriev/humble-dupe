@@ -72,6 +72,7 @@
       "name": "Luxury Home Hero",
       "settings": {
         "background_color": "#030508",
+        "image": "shopify://shop_images/1-05.webp",
         "review_text": "",
         "title": "Same Scent.",
         "subtitle": "Smarter Price. Zero Regrets.",
