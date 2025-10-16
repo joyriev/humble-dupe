@@ -378,18 +378,21 @@
         "perk_HrfwXR": {
           "type": "perk",
           "settings": {
+            "icon": "shopify://shop_images/sandwatch.svg",
             "text": "Lasts 12+ Hours"
           }
         },
         "perk_d4dqHJ": {
           "type": "perk",
           "settings": {
+            "icon": "shopify://shop_images/heart.svg",
             "text": "loved by 10,000+"
           }
         },
         "perk_9CajQF": {
           "type": "perk",
           "settings": {
+            "icon": "shopify://shop_images/sheild-star.svg",
             "text": "60 day satisfaction guarantee"
           }
         }
