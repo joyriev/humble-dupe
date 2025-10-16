@@ -476,18 +476,6 @@
         "padding_bottom": 52
       }
     },
-    "175501299681a2aa62": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "17551175978bd893d1": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "marquee_labels_xqfxRx": {
       "type": "marquee-labels",
       "blocks": {
@@ -545,12 +533,6 @@
       ],
       "name": "Marquee Labels",
       "settings": {}
-    },
-    "175501299598bc050d": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -565,9 +547,6 @@
     "here_from_them_wccxKG",
     "special_offer_bogo_NqVrAK",
     "makes_different_list_YjiDH8",
-    "175501299681a2aa62",
-    "17551175978bd893d1",
-    "marquee_labels_xqfxRx",
-    "175501299598bc050d"
+    "marquee_labels_xqfxRx"
   ]
 }
