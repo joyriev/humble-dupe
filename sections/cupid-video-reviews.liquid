@@ -1,0 +1,188 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div
+  id="{{ section.id }}"
+  class="section-{{ section.id }}-padding"
+  style="background-color: {{ section.settings.background_color }}">
+  <div class="page-width overflow-hidden">
+    <div class="text-center max-w-screen-md mx-auto">
+      <h2 class="text-3xl font-black  leading-snug my-0 mb-3">
+           Real People, Real Compliments  
+      </h2>
+      <img
+        src="{{ 'rating-stars.svg' | asset_url }}"
+        alt="★★★★★"
+        width="90"
+        height="18">
+      <p class="text-lg font-medium text-gray-700 my-0 mt-3">
+                                             
+        Over 10,000 people have made the switch. Here's what they're saying.
+        <p>(We gave these folks a discount for sharing their honest thoughts. Because we're nice like that.)</p>
+      </p>
+    </div>
+    <div class="cupids-video-slider max-w-full">
+      <div class="swiper-wrapper mt-12">
+        <div class="swiper-slide max-w-[262px] bg-white border border-solid border-gray-200 rounded-2xl overflow-hidden">
+          <video
+            class="w-full aspect-[9/16] object-cover"
+            controls=""
+            preload="metadata"
+            playsinline=""
+            webkit-playsinline=""
+            poster="https://cdn.shopify.com/s/files/1/0263/8974/1673/files/thumb-1_1.png?v=1758521748">
+            <source src="https://cdn.shopify.com/videos/c/o/v/759e1b0474084fef90a6a2a0e1d1eba9.mp4" type="video/mp4">
+          </video>
+          <div class="p-4 text-center">
+            <img
+              src="{{ 'rating-stars.svg' | asset_url }}"
+              alt="★★★★★"
+              width="90"
+              height="18">
+            <h3 class="text-xl font-black  leading-snug my-0 mt-2">Compliment Magnet</h3>
+            <p class="text-lg font-medium text-gray-700 my-0 mt-2 leading-snug">
+              “I used to assume expensive scents were the only way to get noticed. Now every time I wear this dupe, people stop me to ask what I’m wearing.”
+            </p>
+            <h4 class="text-black font-semibold text-xl mb-0 mt-3">
+              Zoriana, 29</h4>
+          </div>
+        </div>
+        <div class="swiper-slide max-w-[262px] bg-white border border-solid border-gray-200 rounded-2xl overflow-hidden">
+          <video
+            class="w-full aspect-[9/16] object-cover"
+            controls=""
+            preload="metadata"
+            playsinline=""
+            webkit-playsinline=""
+            poster="https://cdn.shopify.com/s/files/1/0263/8974/1673/files/thumb-2_1.png?v=1758521917">
+            <source src="https://cdn.shopify.com/videos/c/o/v/e0015da76393483d8df1f1215e5894fa.mp4" type="video/mp4">
+          </video>
+          <div class="p-4 text-center">
+            <img
+              src="{{ 'rating-stars.svg' | asset_url }}"
+              alt="★★★★★"
+              width="90"
+              height="18">
+            <h3 class="text-xl font-black  leading-snug my-0 mt-2">My Wallet Thanks Me</h3>
+            <p class="text-lg font-medium text-gray-700 my-0 mt-2 leading-snug">
+              “I was dropping $150+ on Sauvage every few months like an idiot. This smells identical and costs $30. I'm never going back.”
+            </p>
+            <h4 class="text-black font-semibold text-xl mb-0 mt-3">Brian, 34 | Saved $120 and counting</h4>
+          </div>
+        </div>
+        <div class="swiper-slide max-w-[262px] bg-white border border-solid border-gray-200 rounded-2xl overflow-hidden">
+          <video
+            class="w-full aspect-[9/16] object-cover"
+            controls=""
+            preload="metadata"
+            playsinline=""
+            webkit-playsinline=""
+            poster="https://cdn.shopify.com/s/files/1/0263/8974/1673/files/thumb-3_1.png?v=1758522022">
+            <source src="https://cdn.shopify.com/videos/c/o/v/da96a4f416954c608fd2de5fda33d1a0.mp4" type="video/mp4">
+          </video>
+          <div class="p-4 text-center">
+            <img
+              src="{{ 'rating-stars.svg' | asset_url }}"
+              alt="★★★★★"
+              width="90"
+              height="18">
+            <h3 class="text-xl font-black  leading-snug my-0 mt-2">Wedding-Wow Effect</h3>
+            <p class="text-lg font-medium text-gray-700 my-0 mt-2 leading-snug">
+              “I wore this to a wedding and three people asked what perfume I was wearing. Yes, I felt like luxury — without paying luxury prices.”
+            </p>
+            <h4 class="text-black font-semibold text-xl mb-0 mt-3">Yedesma, 31 | Instant conversation starter</h4>
+          </div>
+        </div>
+        <div class="swiper-slide max-w-[262px] bg-white border border-solid border-gray-200 rounded-2xl overflow-hidden">
+          <video
+            class="w-full aspect-[9/16] object-cover"
+            controls=""
+            preload="metadata"
+            playsinline=""
+            webkit-playsinline=""
+            poster="https://cdn.shopify.com/s/files/1/0263/8974/1673/files/thumb-4_1.png?v=1758522211">
+            <source src="https://cdn.shopify.com/videos/c/o/v/6ab7fa40d7664ac0aebf02850b3aaaa8.mp4" type="video/mp4">
+          </video>
+          <div class="p-4 text-center">
+            <img
+              src="{{ 'rating-stars.svg' | asset_url }}"
+              alt="★★★★★"
+              width="90"
+              height="18">
+            <h3 class="text-xl font-black  leading-snug my-0 mt-2">My Daily Fresh Fix</h3>
+            <p class="text-lg font-medium text-gray-700 my-0 mt-2 leading-snug">
+              “Light, crisp and clean — way longer-lasting than I expected. This has officially replaced my old everyday go-to perfume.”
+            </p>
+            <h4 class="text-black font-semibold text-xl mb-0 mt-3">Yana, 25 | Daily favorite secured</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const swiper = new Swiper('.cupids-video-slider', {
+      slidesPerView: 1.5,
+      spaceBetween: 20,
+      breakpoints: {
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 20
+        }
+      }
+    });
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Cupid Video Reviews",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 72
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 72
+      }, {
+        "type": "color",
+        "id": "background_color",
+        "label": "Background Color",
+        "default": "#FFFFFF"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Cupid Video Reviews"
+      }
+    ]
+  }
+{% endschema %}
