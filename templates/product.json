@@ -16,11 +16,6 @@
           "type": "title",
           "settings": {}
         },
-        "judge_me_reviews_preview_badge_kbXtkh": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {}
-        },
         "selling_points_9tdid6": {
           "type": "selling_points",
           "disabled": true,
@@ -194,7 +189,6 @@
       },
       "block_order": [
         "title",
-        "judge_me_reviews_preview_badge_kbXtkh",
         "selling_points_9tdid6",
         "cheaper_than_yDGYG9",
         "mobile_gallery_FUEn6Y",
@@ -211,7 +205,6 @@
         "people_purchased_cYxaYJ",
         "cta_review_g7n3R8",
         "collapsible_tab_XYmgtQ",
-        "collapsible_tab_PtUaDN",
         "collapsible_tab_tUEYBx",
         "collapsible_tab_nhKiAc",
         "collapsible_tab_pCrhqV",
@@ -413,8 +406,8 @@
       ],
       "name": "Special Offer",
       "settings": {
-        "background_image": "shopify://shop_images/special-offer-two-bg.png",
-        "offer_image": "shopify://shop_images/dupestoremain.png",
+        "background_image": "shopify://shop_images/special-offer-two-bg.webp",
+        "offer_image": "shopify://shop_images/dupestoremain_be3376a5-f382-459d-89e5-e36562ac1a88.png",
         "offer_text": "Special Offer",
         "offer_title": "Buy More, Get More Free",
         "offer_description": "Choose your perfect bundle and receive matching free bottles in the same size: 30ml, 50ml, or 100ml.",
@@ -477,7 +470,6 @@
       "name": "TryScent Statistics",
       "settings": {
         "background_color": "#f1f6ff",
-        "statistic_image": "shopify://shop_images/blind-test_1.png",
         "heading": "10,000+ Dupe Store Bottles Shipped Worldwide",
         "disclaimer": "*RESULTS BASED ON 1,000+ POST-PURCHASE SURVEYS",
         "padding_top": 12,
@@ -524,7 +516,7 @@
       ],
       "name": "TryScent Steps Timeline",
       "settings": {
-        "satisfaction_bg_image": "shopify://shop_images/Frame_367.png",
+        "satisfaction_bg_image": "shopify://shop_images/Frame_367.webp",
         "satisfaction_title": "Your Satisfaction Guarantee"
       }
     },
@@ -536,21 +528,6 @@
     },
     "1760172070186777df": {
       "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_7wcUbg": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {
-            "review_data": "real_data",
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget",
-            "max_width": 1200
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_7wcUbg"
-      ],
       "settings": {
         "include_margins": true
       }
