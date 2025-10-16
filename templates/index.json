@@ -280,6 +280,7 @@
         "collection_t6NHM7": {
           "type": "collection",
           "settings": {
+            "image": "shopify://shop_images/model1.png",
             "heading": "Scents For Women",
             "subheading": "From boardroom boss to night-out chaos. We've got your whole personality covered.",
             "button_text": "Explore",
@@ -290,6 +291,7 @@
         "collection_zqtLKY": {
           "type": "collection",
           "settings": {
+            "image": "shopify://shop_images/model2.webp",
             "heading": "Scents For Men",
             "subheading": "Whether you're closing deals or breaking hearts, smell like you mean business.",
             "button_text": "Explore",
